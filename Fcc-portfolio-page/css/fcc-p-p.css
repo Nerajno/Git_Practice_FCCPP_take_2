@@ -119,6 +119,7 @@ Skills - Projects
 
 .SkillsUsed {
   list-style-type: none;
+  border: 0;
   /* Dont think this wrks
   */
 }

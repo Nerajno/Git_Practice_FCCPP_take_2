@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title> Trick #4 </title>
+    <style>
+     body{
+       counter-reset: pages;
+     }
+     a{
+       counter-increment: pages;
+     }
+     a:: before{
+       content: counter(pages);
+     }
+    </style>
+  </head>
+  <body>
+    <h1> Pagination with CSS</h1>
+    <section>
+      <h2> Jump to page:</h2>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+      <a href="#"></a>
+    </section>
+  </body>
+</html>

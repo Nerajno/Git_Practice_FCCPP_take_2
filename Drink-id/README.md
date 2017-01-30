@@ -23,22 +23,21 @@ So this is a web page that will check to see if you can drink legally
 }
 
 *JS  
-{
-  /*  1. take input and subtract input from current year.
-      2. if the product is => 21 return yup go ahead
-      3. else return nope you have _________ till you can drink
-     -Ramblings - on click [takes input and runs a function]
-                - function = minus ur birth year from current
-                  date, if results => 21/remainder put stuff in demo that says yes drink else nope
-  */
-
-  function myFunction() {
-    var today = new Date();
-    var year = today.getFullYear();
-    var remainder = 21;
-    if /*input*/ ;
-
-      document.getElementById("demo").innerHTML = "Hello World";
-  }
+{/*  1. take input and subtract input from current year.
+    2. if the product is => 21 return yup go ahead
+    3. else return nope you have _________ till you can drink
+   -Ramblings - on click [takes input and runs a function]
+              - function = minus ur birth year from current
+                date, if results => 21/remainder put stuff in demo that says yes drink else nope
+*/
+function myFunction() {
+  var today = new Date();
+  var year = today.getFullYear();
+  //var remainder = 21;
+  var formInput = parseInt(document.getElementsById("drnkr").value);
+  var bouncer = formInput - year;
+  console.log(formInput);
+   //document.getElementById("demo").innerHTML = bouncer;
+}
 
 }

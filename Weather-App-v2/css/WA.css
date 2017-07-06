@@ -1,0 +1,43 @@
+body {
+  background-image: url("https://c1.staticflickr.com/3/2900/33230796166_912d01c6a3_b.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding-top: 25px;
+    margin-top: 100px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+}
+
+nav-bar{
+  color:#fff;
+}
+
+#entity {
+  background-color: black;
+  color: inherit;
+  display: block;
+  margin: auto;
+  width: 60%;
+  padding: 35px;
+  border-radius: 12px;
+  border-style: solid;
+  border-color: white;
+  }
+
+#getWeather {
+  background-color: black;
+  color: inherit;
+  display: block;
+  margin: auto;
+  border-radius: 7px;
+  border-style: solid;
+  border-color: white;
+}
+
+h1{
+  font-family: 'Carrois Gothic', sans-serif;
+  text-align: center;
+}
